@@ -1,3 +1,5 @@
-const userObj = require(('./user'));
+const obj = require(('./user'));
 
-console.log(userObj);
+console.log(obj.user);
+
+obj.sayHello();

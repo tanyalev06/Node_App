@@ -3,4 +3,13 @@ const user = {
     age: 25
 }
 
-module.exports = user;
+const user2 = {
+    name: 'Igor'
+}
+
+module.exports = {
+    user: user,
+    sayHello() {
+        console.log('Hello');
+    }
+};
